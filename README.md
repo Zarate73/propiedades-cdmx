@@ -1,12 +1,10 @@
 # propiedades-cdmx
 
-[![CI](https://github.com/TU_USUARIO/propiedades-cdmx/actions/workflows/ci.yml/badge.svg)](https://github.com/TU_USUARIO/propiedades-cdmx/actions/workflows/ci.yml)
+[![CI](https://github.com/TU_USUARIO/propiedades-cdmx/actions/workflows/ci.yml/badge.svg)](https://github.com/Zarate73/propiedades-cdmx/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-blue.svg)](pyproject.toml)
 
 Scraper de propiedades en venta en CDMX (propiedades.com) más el análisis que hice sobre los datos: EDA, regresión lineal, simulación Monte Carlo, Random Forest, clustering de colonias y una red neuronal, comparando los tres modelos con métricas reales fuera de muestra en vez de quedarme solo con el que se ve mejor.
-
-(Cambia `TU_USUARIO` por tu usuario de GitHub en el badge de arriba cuando subas el repo.)
 
 ## Resultados
 
