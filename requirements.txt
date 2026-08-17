@@ -1,0 +1,10 @@
+# Instalación rápida del scraper (sin las dependencias de analysis/):
+#   pip install -r requirements.txt
+# Para el notebook de análisis además necesitas:
+#   pip install -e ".[analysis]"
+# Para desarrollo (tests, lint):
+#   pip install -e ".[dev]"
+pandas>=2.0
+selenium>=4.20
+tenacity>=8.2
+python-dotenv>=1.0

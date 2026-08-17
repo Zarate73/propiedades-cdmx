@@ -1,0 +1,43 @@
+# --- Entradas/salidas del scraper: no versionar ---
+input/
+output/
+*.jsonl
+resultados_cdmx*.csv
+urls_fallidas*.txt
+
+# CSVs/JSONs sueltos de corridas del scraper en la raíz (patrón del proyecto
+# original: "3_propiedades_100PERFECTAS_FINAL.csv" y similares). Los datasets
+# que sí se versionan viven en data/ y analysis/data/, no en la raíz.
+/*.csv
+/*.json
+
+# --- Secretos y configuración local ---
+.env
+*.local
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# --- Selenium / drivers ---
+.wdm/
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+
+# --- Sistema operativo / editor ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.log
